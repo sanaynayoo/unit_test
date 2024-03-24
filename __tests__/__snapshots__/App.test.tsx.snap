@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<View>
+  <Text>
+    About
+  </Text>
+</View>
+`;
+
+exports[`render correctly 2`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+>
+  <Text>
+    Login
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#ff8800",
+        "borderRadius": 100,
+        "elevation": 3,
+        "marginTop": 50,
+        "opacity": 1,
+        "paddingHorizontal": 20,
+        "paddingVertical": 8,
+        "shadowColor": "#000000",
+        "shadowOffset": {
+          "height": 8,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 10,
+        "width": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "green",
+          "fontSize": 13,
+        }
+      }
+    >
+      Next
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`render correctly 3`] = `
+<View>
+  <Text>
+    Home
+  </Text>
+</View>
+`;
